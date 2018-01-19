@@ -12,8 +12,10 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<!-- <link rel="stylesheet" href="/babyemesh/css/bootstrap.css" type="text/css"> -->
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<!-- <script type="text/javascript" src="/babyemesh/js/bootstrap.js"></script> -->
 
 <?php wp_head(); ?>
 </head>
@@ -25,8 +27,8 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>
 
-	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-		<div class="col-full">
+	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>; width: 100%; position: fixed;">
+		<div class="col-12" style="padding-left: 5%;padding-right: 5%;">
 
 			<?php
 			/**
@@ -55,7 +57,7 @@
 	 */
 	do_action( 'storefront_before_content' ); ?>
 
-	<div id="content" class="site-content" tabindex="-1">
+	<div id="content" class="site-content" tabindex="-1" style="padding-top: 12.5%;">
 		<div class="col-full">
 
 		<?php

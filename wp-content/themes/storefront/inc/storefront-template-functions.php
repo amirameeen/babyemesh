@@ -126,9 +126,15 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 		?>
 		<div class="site-info">
 			<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
-			<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
-			<br /> <?php echo '<a href="https://woocommerce.com" target="_blank" title="' . esc_attr__( 'WooCommerce - The Best eCommerce Platform for WordPress', 'storefront' ) . '" rel="author">' . esc_html__( 'Built with Storefront &amp; WooCommerce', 'storefront' ) . '</a>' ?>
-			<?php } ?>
+			<!-- <?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
+			<br /> 
+			<?php echo '<a href="#" target="_blank" title="' . esc_attr__( 'WooCommerce - The Best eCommerce Platform for WordPress', 'storefront' ) . '" rel="author">' . esc_html__( 'Built with Storefront &amp; WooCommerce', 'storefront' ) . '</a>' ?> 
+			<?php } ?> -->
+			<br/>
+			Aden Naufal, Amir Malik, Dena Agus, Irvan Muhammad, Ridwan, Nur Imam, Sri Rahayu, Wulan Lastia
+
+<!-- edit disini okay -->
+
 		</div><!-- .site-info -->
 		<?php
 	}
