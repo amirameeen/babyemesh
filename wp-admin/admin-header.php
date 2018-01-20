@@ -198,6 +198,11 @@ $admin_body_classes = apply_filters( 'admin_body_class', '' );
 <script type="text/javascript">
 	document.body.className = document.body.className.replace('no-js','js');
 </script>
+<style type="text/css">
+	#wp-admin-bar-wp-logo{
+		visibility: hidden !important;
+	}
+</style>
 
 <?php
 // Make sure the customize body classes are correct as early as possible.

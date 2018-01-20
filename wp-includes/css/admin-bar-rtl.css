@@ -487,6 +487,7 @@ html:lang(he-il) .rtl #wpadminbar *  {
 
 #wpadminbar #wp-admin-bar-wp-logo > .ab-item {
 	padding: 0 7px;
+	visibility: hidden !important; 
 }
 
 #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
@@ -859,6 +860,7 @@ html:lang(he-il) .rtl #wpadminbar *  {
 	/* WP logo */
 	#wpadminbar #wp-admin-bar-wp-logo > .ab-item {
 		padding: 0;
+	visibility: hidden !important; 
 	}
 
 	#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon {
@@ -1024,6 +1026,7 @@ html:lang(he-il) .rtl #wpadminbar *  {
 	#wpadminbar li#wp-admin-bar-comments,
 	#wpadminbar li#wp-admin-bar-my-account {
 		display: block;
+	visibility: hidden !important;
 	}
 
 	/* Allow dropdown list items to appear normally */
@@ -1123,6 +1126,7 @@ html:lang(he-il) .rtl #wpadminbar *  {
 	#wpadminbar li#wp-admin-bar-wp-logo,
 	#wpadminbar li#wp-admin-bar-updates {
 		display: none;
+	visibility: hidden !important;
 	}
 
 	/* Make submenus full-width at this size */
